@@ -30,12 +30,15 @@
 
 ### 7. SQL Analysis: Complex Queries and Business Problem Solving
    - **Business Problem-Solving**: Write and execute complex SQL queries to answer critical business questions, such as:
-     - Revenue trends across branches and categories.
-     - Identifying best-selling product categories.
-     - Sales performance by time, city, and payment method.
-     - Analyzing peak sales periods and customer buying patterns.
-     - Profit margin analysis by branch and category.
-   - **Documentation**: Keep clear notes of each query's objective, approach, and results.
+     - Q1: Find different payment methods, number of transactions, and quantity sold.
+     - Q2: Identify the highest-rated category in each branch, displaying the branch, category, and average rating.
+     - Q3: Identify the busiest day for each branch based on the number of transactions.
+     - Q4: Calculate the total quantity of items sold per payment method; list payment method and total quantity.
+     - Q5: Determine the average, min, and max rating of categories for each city; list the city, average_rating, min_rating, and max_rating.
+     - Q6: Calculate the total profit for each category (as unit_price × quantity × profit_margin); list category and total_profit, ordered from highest to lowest profit.
+     - Q7: Determine the most common payment method for each branch; display branch and preferred_payment_method.
+     - Q8: Categorize sales into Morning, Afternoon, and Evening shifts; find the shift and number of invoices.
+     - Q9: Identify the 5 branches with the highest revenue decrease ratio from last year to current year (e.g., 2022 to 2023).
 
 ### 8. Project Publishing and Documentation
    - **Documentation**: Maintain well-structured documentation of the entire process in Markdown or a Jupyter Notebook.
