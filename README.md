@@ -3,7 +3,7 @@
 ## Project Steps
 
 ### 1. Set Up the Environment
-   - **Tools Used**: Visual Studio Code (VS Code), Python, SQL (MySQL)
+   - **Tools Used**: Visual Studio Code (VS Code), Jupter Notebook, Python, SQL (MySQL)
 
 ### 2. Download Walmart Sales Data
    - **Dataset Link**: [Walmart Sales Dataset](https://www.kaggle.com/najir0123/walmart-10k-sales-datasets)
@@ -28,18 +28,44 @@
    - **Table Creation**: Set up tables in both MySQL and PostgreSQL using Python SQLAlchemy to automate table creation and data insertion.
    - **Verification**: Run initial SQL queries to confirm that the data has been loaded accurately.
 
-### 7. SQL Analysis: Complex Queries and Business Problem Solving
+### 7. SQL Analysis: Walmart Business Problem Solving
    - **Business Problem-Solving**: Write and execute complex SQL queries to answer critical business questions, such as:
-     - Q1: Find different payment methods, number of transactions, and quantity sold.
-     - Q2: Identify the highest-rated category in each branch, displaying the branch, category, and average rating.
-     - Q3: Identify the busiest day for each branch based on the number of transactions.
-     - Q4: Calculate the total quantity of items sold per payment method; list payment method and total quantity.
-     - Q5: Determine the average, min, and max rating of categories for each city; list the city, average_rating, min_rating, and max_rating.
-     - Q6: Calculate the total profit for each category (as unit_price × quantity × profit_margin); list category and total_profit, ordered from highest to lowest profit.
-     - Q7: Determine the most common payment method for each branch; display branch and preferred_payment_method.
-     - Q8: Categorize sales into Morning, Afternoon, and Evening shifts; find the shift and number of invoices.
-     - Q9: Identify the 5 branches with the highest revenue decrease ratio from last year to current year (e.g., 2022 to 2023).
-
+     1. Analyze Payment Methods and Sales
+        ● Question: What are the different payment methods, and how many transactions and items were sold with each method?
+        ● Purpose: This helps understand customer preferences for payment methods, aiding in payment optimization strategies.
+        
+     2. Identify the Highest-Rated Category in Each Branch
+        ● Question: Which category received the highest average rating in each branch?
+        ● Purpose: This allows Walmart to recognize and promote popular categories in specific branches, enhancing customer satisfaction and branch-specific marketing.
+        
+     3. Determine the Busiest Day for Each Branch
+        ● Question: What is the busiest day of the week for each branch based on transaction volume?
+        ● Purpose: This insight helps in optimizing staffing and inventory management to accommodate peak days.
+        
+     4. Calculate Total Quantity Sold by Payment Method
+        ● Question: How many items were sold through each payment method?
+        ● Purpose: This helps Walmart track sales volume by payment type, providing insights into customer purchasing habits.
+        
+     5. Analyze Category Ratings by City
+        ● Question: What are the average, minimum, and maximum ratings for each category in each city
+        ● Purpose: This data can guide city-level promotions, allowing Walmart to address regional preferences and improve customer experiences.
+        
+     6. Calculate Total Profit by Category
+        ● Question: What is the total profit for each category, ranked from highest to lowest?
+        ● Purpose: Identifying high-profit categories helps focus efforts on expanding these products or managing pricing strategies effectively.
+        
+     7. Determine the Most Common Payment Method per Branch
+        ● Question: What is the most frequently used payment method in each branch?
+        ● Purpose: This information aids in understanding branch-specific payment preferences, potentially allowing branches to streamline their payment processing systems.
+        
+     8. Analyze Sales Shifts Throughout the Day
+        ● Question: How many transactions occur in each shift (Morning, Afternoon, Evening) across branches?
+        ● Purpose: This insight helps in managing staff shifts and stock replenishment schedules, especially during high-sales periods.
+        
+     9. Identify Branches with Highest Revenue Decline Year-Over-Year (eg. 2022-2023)
+         ● Question: Which branches experienced the largest decrease in revenue compared to the previous year?
+        ● Purpose: Detecting branches with declining revenue is crucial for understanding possible local issues and creating strategies to boost sales or mitigate losses.
+    
 ### 8. Project Publishing and Documentation
    - **Documentation**: Maintain well-structured documentation of the entire process in Markdown or a Jupyter Notebook.
    - **Project Publishing**: Publish the completed project on GitHub or any other version control platform, including:
